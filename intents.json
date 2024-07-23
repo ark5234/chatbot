@@ -1,0 +1,144 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?"
+      ],
+      "responses": [
+        "We sell coffee and tea",
+        "We have coffee and tea"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?"
+      ],
+      "responses": [
+        "Delivery takes 2-4 days",
+        "Shipping takes 2-4 days"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+    {
+      "tag": "unique",
+      "patterns": ["What makes Jessup Cellars unique compared to other tasting rooms in Yountville?"],
+      "responses": ["Jessup Cellars has a casual and inviting atmosphere and was the first tasting room opened in Yountville in 2003. You have the option of sitting inside our stunning art gallery or you may choose to enjoy the patio with giant umbrellas. We also have space available for private groups and special accommodations and snacks for your children. Our fine art is meticulously curated by our lead artist Jermaine Dante who exhibits his colorful creations in large formats in our spacious gallery where you can take in, or take home the inspiring art while imbibing your favorite Jessup wines."]
+  },
+  {
+      "tag": "dogs_allowed",
+      "patterns": ["Are dogs allowed at Jessup Cellars?"],
+      "responses": ["Jessup Cellars welcomes your well-behaved dogs inside or outside and we have gluten-free dog treats available as well as water dishes."]
+  },
+  {
+      "tag": "wines_special",
+      "patterns": ["What makes Jessup Cellars wines special?"],
+      "responses": ["Jessup Cellars wines are carefully crafted with the help of our renowned consulting winemaker Rob Lloyd who famously crafted Chardonnay for Rombauer, La Crema, and Cakebread. Not only has Rob created one of the best Chardonnays in the Napa Valley with our 2022 vintage, but he has also helped curate 'The Art of the Blend' with our stellar red wines."]
+  },
+  {
+      "tag": "white_wines",
+      "patterns": ["What white wines does Jessup Cellars offer?"],
+      "responses": ["Our leading white wine is our Napa Valley Chardonnay from the Los Carneros region. The Truchard Vineyard is perfectly located in the hills above Highway 12 with the San Francisco Bay influences creating a cooler growing climate where the grapes ripen slowly and perfectly on the vine. The perfect weather combines with an ideal terroir to create the foundation for a well-balanced Chardonnay aged for 10 months in 40% new American Oak barrels. We also offer an annual harvest of Sauvignon Blanc which is sourced from North Coast vines outside of the Napa Valley. The tropical nature of our 2023 Sauvignon Blanc is decidedly different than the typical Sauvignon Blanc grown in the Valley and elsewhere in the World. Due to its limited supply, this wine sells out quickly each year so be sure to give us a call before visiting our tasting room to check availability."]
+  },
+  {
+      "tag": "white_wine_detail",
+      "patterns": ["Tell me about white wine?"],
+      "responses": ["Our leading white wine is our Napa Valley Chardonnay from the Los Carneros region. The Truchard Vineyard is perfectly located in the hills above Highway 12 with the San Francisco Bay influences creating a cooler growing climate where the grapes ripen slowly and perfectly on the vine. The perfect weather combines with an ideal terroir to create the foundation for a well-balanced Chardonnay aged for 10 months in 40% new American Oak barrels."]
+  },
+  {
+    "tag": "red_wines",
+    "patterns": ["What red wines is Jessup Cellars offering in 2024?"],
+    "responses": ["Jessup Cellars offers a number of red wines across a range of varietals, from Pinot Noir and Merlot blends from the Truchard Vineyard, to blended Cabernet Sauvignon from both the Napa and Alexander Valleys, our Mendocino Rougette combining Grenache and Carignane varietals which we refer to as our 'Summer Red', to the ultimate expression of the 'Art of the Blend' with our Juel and Table for Four Red Wines. We also offer 100% Zinfandel from 134 year old vines in the Mendocino region and our own 100% Petite Sirah grown in the Wooden Valley in Southeastern Napa County. We also offer some seasonal favorites, led by the popular whimsical Manny's Blend which should be released later in 2024 with a very special label."]
+  },
+  {
+    "tag": "winemaker_rob_lloyd",
+    "patterns": ["Please tell me more about your consulting winemaker Rob Lloyd?", "Tell me an interesting fact about Rob Llyod"],
+    "responses": ["Rob Lloyd\nConsulting Winemaker\n\nBIOGRAPHY\nHometown: All of California\n\nFavorite Jessup Wine Pairing: Carneros Chardonnay with freshly caught Mahi-Mahi\n\nAbout: Rob's foray into wine started directly after graduating college when he came to Napa to work in a tasting room for the summer before getting a 'real job'. He became fascinated with wine and the science of winemaking and began to learn everything he could about the process.\n\nWhile interviewing for that 'real job', the interviewer asked him what he had been doing with his time since graduation. After speaking passionately and at length about wine, the interviewer said, 'You seem to love that so much. Why do you want this job?' Rob realized he didn't want it, actually. He thanked the man, and thus began a career in the wine industry.\n\nRob has since earned his MS in Viticulture & Enology from the University of California Davis and worked for many prestigious wineries including Cakebread, Stag's Leap Wine Cellars, and La Crema. Rob began crafting Jessup Cellars in the 2009 season and took the position of Director of Winemaking at Jessup Cellars in 2010. He now heads up our winemaking for the Good Life Wine Collective, which also includes Handwritten Wines.", "While interviewing for that 'real job', the interviewer asked him what he had been doing with his time since graduation. After speaking passionately and at length about wine, the interviewer said, 'You seem to love that so much. Why do you want this job?' Rob realized he didn't want it, actually. He thanked the man, and thus began a career in the wine industry."]
+  },
+  {
+    "tag": "winemaker_bernardo_munoz",
+    "patterns": ["Who is your winemaker at the winery in Napa?"],
+    "responses": ["Bernardo Munoz\nWinemaker\n\nBIOGRAPHY\nHometown: Campeche, Mex\n\nFavorite Jessup Wine Pairing: 2010 Manny's Blend with Mongolian Pork Chops from Mustards Grill – richness paired with richness\n\nAbout: Bernardo began his career in the vineyards, learning the intricacies of grape growing and how to adjust to the whims of Mother Nature. He then moved into the cellars at Jessup Cellars, bringing us his complete grape to bottle knowledge to the team. He has a keen understanding of what it takes to make a great bottle."]
+  },
+  {
+    "tag": "pinot_noir",
+    "patterns": ["What can you tell me about your Pinot Noir?"],
+    "responses": ["What makes our Pinot Noir unique from typical Pinot is the added element of the Jessup 'Art of the Blend'. While it is 96.7% Pinot Noir with fruit sourced from our favorite Los Carneros Truchard Vineyard, our master winemakers blend in a little (3.3%) of our own Petite Sirah from our estate vineyard in the Wooden Valley area of Southeastern Napa County and age it in 50% new French oak for 10 months. The alcohol content of this vintage is 14.8% with a PH of 3.45. This gives our 2021 Pinot Noir a much bolder color, very different from your typical light and bright Pinot you may be accustomed to. This also adds body to the wine which has become a member favorite at Jessup Cellars, priced at $70 for non-members."]
+  },
+  {
+    "tag": "merlot",
+    "patterns": ["Tell me more information about your 2019 Merlot?"],
+    "responses": ["Our 2019 Jessup Cellars Merlot is from the Truchard Vineyard in the Los Carneros region of the Napa Valley which enjoys the San Francisco Bay influences that also envelope our Chardonnay and Pinot Noir. The terroir is ideally suited for a full bodied Merlot and like many of our wines, our Merlot is reflective of the 'Art of the Blend' by our winemakers. The 2019 Merlot is 80% Merlot, 16.5% Cabernet Sauvignon from the Chiles Valley AVA in Northeastern Napa County and a splash of our Petite Sirah (3.5%) from the same location finishes the wine perfectly. Our merlot is aged for 22 months in 40% new American/French oak with an alcohol content of 15.1% with a PH level of 3.55. This wine drinks well now, however, will continue to age gracefully for another 5-8 years.  We recommend trying this delicious Merlot with roasted chicken and vegetables or beef bourguignon. Non-members can pick up our 2019 Napa Valley Merlot for $70."]
+  },
+  {
+    "tag": "zinfandel",
+    "patterns": ["What makes your 2020 Pacini Vineyards Zinfandel special?"],
+    "responses": ["Jessup Cellars has a history of making fine big Zinfandels, but the 2020 Pacini Vineyards 100% Zinfandel from the Talmage Bench in Mendocino County is decidedly different than your typical Zin, with the grapes for this wine coming from 134 year old 'ancient vines'. Brimming with nuances of ripe cranberry, pomegranate, cherry cola, white pepper, and vanilla, this wine offers soft tannins with a nice, long finish. This wine is aged in used (neutral) Chardonnay barrels with an alcohol content of 14.9%. The price is $60 for non-members.\n\nPair with pastas, barbecued meats or just pour yourself a glass and enjoy on its own.\n\nDrink now after decanting or age for up to 9 years."]
+  },
+  {
+    "tag": "cabernet_sauvignon",
+    "patterns": ["Does Jessup Cellars offer Napa Valley Cabernet Sauvignon?"],
+    "responses": ["Napa Valley Cabernet Sauvignon is a staple of most Napa Valley winemakers with Jessup offering our 2019 Cabernet Sauvignon for 2024. As with most of our red wines, our winemakers exercise 'The Art of the Blend' by starting with 90% Napa Valley fruit from the Chiles Valley AVA in Northeastern Napa County, then blend in 5% Petite Sirah from the same AVA, 3% Merlot from our Truchard Vineyard in the Los Carneros region, then finish it with 2.1% Cabernet Franc, which is the parent grape of both Cabernet Sauvignon and Merlot, often used in blended wines. Cabernet Franc originated in the Bordeaux region of France and to honor that provenance, we age our 2019 Jessup Cellars Cabernet Sauvignon in 80% new French oak for 22 months. Alcohol content in this varietal is 14.9% with a PH of 3.65. You can purchase our 2019 Cab for $90.\n\nThe palate of the wine matches the aromatics providing juicy fruit flavors, rich tannins and a long finish. This wine drinks well now however will age gracefully for the next 5-8 years.\n\nEnjoy this Cabernet Sauvignon with a quality cut of beef or any dish that has a nice smoky/fatty/or charred quality."]
+  }
+]
+}
